@@ -9,7 +9,6 @@ void MailStorage::save(const SMTPMessage& msg) {
     auto timestamp = std::chrono::duration_cast<std::chrono::milliseconds>(
         now.time_since_epoch()).count();
 
-    std::string filename = "mailbox/msg_" + std::to_string(timestamp) + ".eml";
     static int counter = 0;
     std::string filename = "mailbox/msg_" + std::to_string(counter++) + ".eml";
     std::ofstream ofs(filename, std::ios::out);
