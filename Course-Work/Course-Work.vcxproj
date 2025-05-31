@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="mailstorage.cpp" />
     <ClCompile Include="POP3connection.cpp" />
     <ClCompile Include="POP3parser.cpp" />
     <ClCompile Include="POP3server.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="SMTPserver.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="mailstorage.h" />
     <ClInclude Include="POP3connection.h" />
     <ClInclude Include="POP3parser.h" />
     <ClInclude Include="POP3server.h" />
