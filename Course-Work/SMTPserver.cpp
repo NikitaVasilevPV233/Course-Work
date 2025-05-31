@@ -9,6 +9,10 @@
 #include <cctype>
 #pragma comment(lib, "ws2_32.lib")
 
+SMTPServer::SMTPServer(int port) : port(port), listenSocket(INVALID_SOCKET) 
+{
+}
+
 static const std::string base64_chars =
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 "abcdefghijklmnopqrstuvwxyz"
