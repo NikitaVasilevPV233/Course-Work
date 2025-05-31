@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Course-Work.cpp" />
+    <ClCompile Include="SMTPconnection.cpp" />
+    <ClCompile Include="SMTPparser.cpp" />
     <ClCompile Include="SMTPserver.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="SMTPconnection.h" />
+    <ClInclude Include="SMTPmessage.h" />
+    <ClInclude Include="SMTPparser.h" />
     <ClInclude Include="SMTPserver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
