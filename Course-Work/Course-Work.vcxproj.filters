@@ -24,6 +24,15 @@
     <ClCompile Include="SMTPconnection.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="POP3server.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="POP3connection.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="POP3parser.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SMTPserver.h">
@@ -36,6 +45,15 @@
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="SMTPmessage.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="POP3server.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="POP3connection.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="POP3parser.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

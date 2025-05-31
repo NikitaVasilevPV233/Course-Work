@@ -127,11 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="POP3connection.cpp" />
+    <ClCompile Include="POP3parser.cpp" />
+    <ClCompile Include="POP3server.cpp" />
     <ClCompile Include="SMTPconnection.cpp" />
     <ClCompile Include="SMTPparser.cpp" />
     <ClCompile Include="SMTPserver.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="POP3connection.h" />
+    <ClInclude Include="POP3parser.h" />
+    <ClInclude Include="POP3server.h" />
     <ClInclude Include="SMTPconnection.h" />
     <ClInclude Include="SMTPmessage.h" />
     <ClInclude Include="SMTPparser.h" />
